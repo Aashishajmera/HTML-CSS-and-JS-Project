@@ -1,0 +1,126 @@
+* {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Rose', cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    /* background-image: url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/1f493053570bf725b7af69e53878f4f83fadfe56/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png"); */
+}
+
+body {
+    /* width: 100vh; */
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/1f493053570bf725b7af69e53878f4f83fadfe56/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    margin-right: 3%;
+    margin-top: 18px;
+    flex-wrap: wrap;
+}
+
+.navigation-bar ul {
+    display: flex;
+    gap: 55px;
+    list-style: none;
+
+}
+
+.navigation-bar li a {
+    display: flex;
+    text-decoration: none;
+    color: #ffc233;
+
+}
+
+
+/* hero section */
+
+.hero-section {
+    margin-top: 40px;
+    /* margin-bottom: 5px; */
+    color: #ffc233;
+}
+
+
+.hero-section div h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-btn {
+    padding: 9px 20px;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.bottom-btn {
+    background: #ff505f;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+    border: none;
+    padding: 10px 28px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    background: #ff505f;
+}
+
+.hero-section button {
+    align-items: center;
+}
+
+
+
+/* footer */
+
+footer {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+footer img {
+    height: 130px;
+    width: 130px;
+}
