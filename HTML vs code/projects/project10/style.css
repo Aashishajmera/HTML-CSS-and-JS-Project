@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+
+}
+
+body {
+    background-color: #f0f4f5;
+    /* overflow: hidden; */
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px 60px;
+}
+
+nav img{
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    position: relative;
+    bottom: 3px;
+    color: rgb(74, 74, 243);
+    text-decoration: underline;
+}
+
+nav ul li a:active{
+    color: rgb(255, 0, 98);
+}
+
+
+/* main section */
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+  }
+  
+  main section {
+    width: 50%;
+  }
+  
+  .leftSection {
+    margin-left: 5%;
+    position: relative;
+  }
+  
+  .topAngle {
+    width: 25px;
+  }
+  
+  .leftSection h1 {
+    font-size: 70px;
+  }
+  
+  .leftSection p {
+    color: #7c7c7c;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .bottomAngle {
+    width: 25px;
+    position: absolute;
+    left: 95%;
+    /* right: 5px; */
+  }
+  
+  .stethoscope {
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25%;a
+    
+    z-index: -1;
+  }
+  
+  .mouse {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+  }
+  
+  .leftSection button {
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background-color: #20bc7e;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  /* designing the right section */
+  .greenBox,
+  .yellowBox {
+    position: absolute;
+    right: 0;
+  }
+  
+  .greenBox {
+    width: 35%;
+    bottom: 30px;
+  }
+  
+  .yellowBox {
+    width: 30%;
+    bottom: 50px;
+  }
+  
+  .doctor {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+  }
+  
