@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 17px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation a:hover {
+    color: #5955b3;
+}
+
+
+.nav {
+    display: flex;
+    gap: 15%;
+}
+
+
+/* hero section */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.hero-left-section h1 {
+    font-size: 40px;
+    color: #3c2f60;
+    font-weight: 900;
+}
+
+.hero-left-section h1 span {
+    color: #5955b3;
+}
+
+.hero-left-section p {
+    margin: 15px;
+    color: #828282;
+}
+
+button {
+
+    font-size: 15px;
+    font-weight: 200;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 9px;
+    background-color: #695cbd;
+    color: #ffffff;
+}
+
+.hero-left-section button {
+    margin-top: 18px;
+}
+
+.hero-right-section img {
+
+    height: 500px;
+    width: 700px;
+}
