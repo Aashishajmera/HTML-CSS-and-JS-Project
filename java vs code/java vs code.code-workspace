@@ -1,0 +1,29 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../HTML vs code"
+        }
+    ],
+    "settings": {
+        "java.project.sourcePaths": [
+            "objectName.java",
+            "nestedLoop.java",
+            "loop.java",
+            "lecture18.java",
+            "lecture15.java",
+            "lecture14.java",
+            "lecture13.java",
+            "ifelse.java",
+            "classMathodFunctionName.java",
+            "allinone.java",
+            "MCQArray.java",
+            "MCQ.java",
+            ".vscode/switch",
+            "MyDoubt.java/lecture31.java"
+        ],
+        "liveServer.settings.multiRootWorkspaceName": "HTML vs code"
+    }
+}

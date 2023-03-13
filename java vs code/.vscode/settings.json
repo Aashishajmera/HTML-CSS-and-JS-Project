@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "lecture15.java",
+        "lecture14.java",
+        "ifelse.java",
+        "MCQArray.java",
+        ".vscode/switch",
+        "CanditionalStatemant.java"
+    ]
+}

@@ -1,0 +1,616 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch CountTheDigite",
+            "request": "launch",
+            "mainClass": "CountTheDigite",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch SqureRactangle",
+            "request": "launch",
+            "mainClass": "SqureRactangle",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch Input",
+            "request": "launch",
+            "mainClass": "Input",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindValue",
+            "request": "launch",
+            "mainClass": "FindValue",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch NonDecreasingMaamWala",
+            "request": "launch",
+            "mainClass": "NonDecreasingMaamWala",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch NonDecreasing",
+            "request": "launch",
+            "mainClass": "NonDecreasing",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindAns",
+            "request": "launch",
+            "mainClass": "FindAns",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch question4",
+            "request": "launch",
+            "mainClass": "question4",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch question3",
+            "request": "launch",
+            "mainClass": "question3",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch question2",
+            "request": "launch",
+            "mainClass": "question2",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch question1",
+            "request": "launch",
+            "mainClass": "question1",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch change",
+            "request": "launch",
+            "mainClass": "change",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch takingInputt",
+            "request": "launch",
+            "mainClass": "takingInputt",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch TakingInput",
+            "request": "launch",
+            "mainClass": "TakingInput",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySum",
+            "request": "launch",
+            "mainClass": "ArraySum",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array2Loop",
+            "request": "launch",
+            "mainClass": "Array2Loop",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArithmeticOperators",
+            "request": "launch",
+            "mainClass": "ArithmeticOperators",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryToDacimal",
+            "request": "launch",
+            "mainClass": "BinaryToDacimal",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitwiseOperators",
+            "request": "launch",
+            "mainClass": "BitwiseOperators",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch BlockLevelScope",
+            "request": "launch",
+            "mainClass": "BlockLevelScope",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecimalToBinary",
+            "request": "launch",
+            "mainClass": "DecimalToBinary",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch MathodLevelScope",
+            "request": "launch",
+            "mainClass": "MathodLevelScope",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch OutSidePwSkills",
+            "request": "launch",
+            "mainClass": "OutSidePwSkills",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pyramidnum",
+            "request": "launch",
+            "mainClass": "Pyramidnum",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ractangular",
+            "request": "launch",
+            "mainClass": "Ractangular",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch RectangularPattern",
+            "request": "launch",
+            "mainClass": "RectangularPattern",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch RelationalOperator",
+            "request": "launch",
+            "mainClass": "RelationalOperator",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch addCount",
+            "request": "launch",
+            "mainClass": "addCount",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch age",
+            "request": "launch",
+            "mainClass": "age",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch all",
+            "request": "launch",
+            "mainClass": "all",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch asignmentOperator",
+            "request": "launch",
+            "mainClass": "asignmentOperator",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch bank",
+            "request": "launch",
+            "mainClass": "bank",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch bloodDonet",
+            "request": "launch",
+            "mainClass": "bloodDonet",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch bre",
+            "request": "launch",
+            "mainClass": "bre",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch breakLoop",
+            "request": "launch",
+            "mainClass": "breakLoop",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch calculator",
+            "request": "launch",
+            "mainClass": "calculator",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch compoundInterest",
+            "request": "launch",
+            "mainClass": "compoundInterest",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch continua",
+            "request": "launch",
+            "mainClass": "continua",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch continuee",
+            "request": "launch",
+            "mainClass": "continuee",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch count",
+            "request": "launch",
+            "mainClass": "count",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch countDigit",
+            "request": "launch",
+            "mainClass": "countDigit",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch countt",
+            "request": "launch",
+            "mainClass": "countt",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch day",
+            "request": "launch",
+            "mainClass": "day",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch doWhilel",
+            "request": "launch",
+            "mainClass": "doWhilel",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch doo",
+            "request": "launch",
+            "mainClass": "doo",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch evenBhag",
+            "request": "launch",
+            "mainClass": "evenBhag",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch evenOdd",
+            "request": "launch",
+            "mainClass": "evenOdd",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch first",
+            "request": "launch",
+            "mainClass": "first",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch incrementOperator",
+            "request": "launch",
+            "mainClass": "incrementOperator",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch leapYear",
+            "request": "launch",
+            "mainClass": "leapYear",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch logicalOperators",
+            "request": "launch",
+            "mainClass": "logicalOperators",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch multipleOf",
+            "request": "launch",
+            "mainClass": "multipleOf",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch nestedIf",
+            "request": "launch",
+            "mainClass": "nestedIf",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch num",
+            "request": "launch",
+            "mainClass": "num",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch numPyramid",
+            "request": "launch",
+            "mainClass": "numPyramid",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch nyumerical",
+            "request": "launch",
+            "mainClass": "nyumerical",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch passByValue",
+            "request": "launch",
+            "mainClass": "passByValue",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch person",
+            "request": "launch",
+            "mainClass": "person",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch power",
+            "request": "launch",
+            "mainClass": "power",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch Appp",
+            "request": "launch",
+            "mainClass": "pw.skills.Appp",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch pyramid",
+            "request": "launch",
+            "mainClass": "pyramid",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch ract",
+            "request": "launch",
+            "mainClass": "ract",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseCount",
+            "request": "launch",
+            "mainClass": "reverseCount",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseNo",
+            "request": "launch",
+            "mainClass": "reverseNo",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch reversee",
+            "request": "launch",
+            "mainClass": "reversee",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch setting",
+            "request": "launch",
+            "mainClass": "setting",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch simpleInterest",
+            "request": "launch",
+            "mainClass": "simpleInterest",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch standard",
+            "request": "launch",
+            "mainClass": "standard",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch streamOfTwo",
+            "request": "launch",
+            "mainClass": "streamOfTwo",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch streamOfTwoo",
+            "request": "launch",
+            "mainClass": "streamOfTwoo",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum",
+            "request": "launch",
+            "mainClass": "sum",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumOfTwoNo",
+            "request": "launch",
+            "mainClass": "sumOfTwoNo",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumSeries",
+            "request": "launch",
+            "mainClass": "sumSeries",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch summ",
+            "request": "launch",
+            "mainClass": "summ",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch takingInput",
+            "request": "launch",
+            "mainClass": "takingInput",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "test1",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "test2",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch test3",
+            "request": "launch",
+            "mainClass": "test3",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch tramgular",
+            "request": "launch",
+            "mainClass": "tramgular",
+            "projectName": "java vs code_8aba4c28"
+        },
+        {
+            "type": "java",
+            "name": "Launch weakName",
+            "request": "launch",
+            "mainClass": "weakName",
+            "projectName": "java vs code_8aba4c28"
+        }
+    ]
+}
