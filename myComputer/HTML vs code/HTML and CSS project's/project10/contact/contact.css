@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+
+}
+
+body {
+    background-color: #f0f4f5;
+    overflow: hidden;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px 60px;
+}
+
+nav img{
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    position: relative;
+    bottom: 3px;
+    color: rgb(74, 74, 243);
+    text-decoration: underline;
+}
+
+nav ul li a:active{
+    color: rgb(255, 0, 98);
+}
+
+
+
+
+/* section contact form */
+
+section{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    gap: 15px;
+}
+
+form h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600px;
+
+}
+
+form div{
+    display: flex;
+    flex-flow: column;
+}
+
+form input{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+form label{
+    font-size: 18px;
+    font-weight: 600;
+}
+form textarea{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px 5px;
+    border-radius: 10px;
+    color: white;
+    background: #20BC7E;
+    border: none;
+    cursor: pointer;
+}

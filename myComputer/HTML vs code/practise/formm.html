@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM | HTML </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Red+Rose:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            /* background-color: #d9e66c; */
+            font-family: 'EB Garamond', serif;
+            font-family: 'Red Rose', cursive; ;
+
+
+        }
+
+        input {
+            background-color: whitesmoke;
+            color: blue;
+
+        }
+
+        fieldset {
+            /* background-image: linear-gradient(red , yellow) */
+
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset class="head">
+        <legend>User information !! </legend>
+        <form action="">
+
+            <input type="search" name="usersearch" id="search" placeholder="something else">
+            <button type="button" style="background-color: rgb(37, 192, 235); color: black; ">Search</button>
+
+
+            <p>
+                <label for="name">Name:</label> &nbsp;
+                <input type="text" name="username" id="name" placeholder="Full name" required>
+            </p>
+            <p>
+                <label for="fathername">Fathe Name:</label> &nbsp;
+                <input type="text" name="userfathername" id="fathername" placeholder="Father Name">
+            </p>
+            <p>
+                <label for="mothername">Mother Name:</label>&nbsp;
+                <input type="text" name="usermothername" id="mothername" placeholder="Mother Name">
+            </p>
+            <p>
+                <label for="mobilenumber">Mobile number: </label> &nbsp;
+                <input type="tel" name="usermobilenumber" id="mobilenumber" placeholder="Mobile Number">
+            </p>
+
+            <input type="submit" value="submit">
+
+
+
+
+        </form>
+
+
+
+    </fieldset>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+body{
+    background-color: #daa520;
+}
+h1{
+    color: #000000;
+    text-size-adjust: 23px;
+    font-family: cursive;
+    border: pink 2px solid;
+    display: inline;
+    text-align: center;
+    background-color: rgb(146, 114, 175);
+    margin: 530px;
+}
+
+p.one{
+    text-align: center;
+}

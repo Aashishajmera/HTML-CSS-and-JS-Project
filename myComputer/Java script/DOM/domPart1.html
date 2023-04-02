@@ -1,0 +1,103 @@
+<!-- DOM mathod's -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM mathod's part - 01 </title>
+</head>
+
+<body>
+    <!-- class name  -->
+    <ul>
+        <li class="class_name">one</li>
+        <li class="class_name">two</li>
+        <li class="class_name">three</li>
+    </ul>
+
+    <!-- id name  -->
+    <p id="id_name">frist_id</p>
+
+    <!-- tag name -->
+    <h3>tag</h3>
+    <h3>name</h3>
+    <h3>llala</h3>
+
+    <!-- query selector  -->
+    <h2 class="classs">classsssssss</h2>
+    <h2 id="iddd">idddddddddddd</h2>
+    <h5>taggggggg</h5>
+
+
+    <!-- attribure dene pr  -->
+    <div class="raja_ji">
+        om pho 
+    </div>
+
+    <!-- internal js -->
+    <script>
+
+        // class name
+        let var1 = document.getElementsByClassName("class_name");
+        console.log(var1);
+        console.log(var1[2].innerText);
+        console.log(var1[1].innerText);
+        // manuplate krne pr 
+        var1[1].innerText = 2;
+        console.log(var1[1].innerText);
+
+
+        // id name 
+        let var2 = document.getElementById("id_name");
+        console.log(var2.innerText);
+
+        // tag name 
+        let var3 = document.getElementsByTagName("h3");
+        console.log(var3[2].innerText);
+        // manuplation krne pr 
+        var3[0].innerText = "raja";
+        console.log(var3[0].innerText);
+
+        // query selector
+
+        // class
+        let var4 = document.querySelector(".classs");
+        console.log(var4.innerText);
+        // id
+        let var5 = document.querySelector("#iddd");
+        console.log(var5.innerText);
+        // tag
+        let varr6 = document.querySelector("h5");
+        console.log(varr6.innerText);
+
+
+        // change class name 
+        // var4.className = "change_classname";
+        // var4.classList = "change_class_name_list"
+        // console.log(var4); 
+
+
+
+
+    // var7 me attribute dene ke lie 
+
+        let var7 = document.querySelector(".raja_ji")
+        console.log(var7);
+        // attribute
+        var7.setAttribute("title" , "OmPho_information")
+        
+
+        // style dene pr 
+        var7.style.color = "red";
+
+
+    
+
+    </script>
+
+</body>
+
+</html>

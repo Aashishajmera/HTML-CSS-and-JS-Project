@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create remove 124 part 2 </title>
+</head>
+
+<body>
+
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+
+    <!-- internal js -->
+    <script>
+
+        // creating html element 
+        let var1 = document.createElement("h1")
+        var1.className = "varible_one"
+        var1.style.fontSize = "33px";
+        var1.textContent = "Hello bachcho"
+        console.log(var1);
+        // page pr dikhane ke lie 
+        document.body.appendChild(var1);
+
+
+        // remove child 
+        let ul_list= document.querySelector("ul");
+        console.log(ul_list);
+        let li_list = document.querySelectorAll("li");
+        console.log(li_list);
+        for (list of li_list) {
+            ul_list.removeChild(list)
+        }
+
+    </script>
+</body>
+
+</html>

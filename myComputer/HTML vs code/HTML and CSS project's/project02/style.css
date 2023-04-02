@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Red Rose', cursive;
+color: rgb(52, 30, 30);
+}
+
+/* body */
+
+body{
+    background-color: whitesmoke;
+}
+
+/* header  */
+
+.header{
+    margin: 12px 6%;
+    /* gap: 120px; */
+}
+
+.navigation{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    gap: 80px;
+}
+
+.navigation div ul{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    text-decoration: none;
+    font-weight: 900px;
+}
+
+li{
+    list-style: none;
+}
+
+.navigation div ul li a{
+    text-decoration: none;
+    font-weight: 700px;
+
+}
+
+.navigation div ul li img{
+    width: 100px;
+}
+
+.navigation div ul li a:hover{
+    color: #f10d0d;
+    text-decoration: underline;
+    font-weight: 900px;    
+}
+
+
+
+
+/* main section */
+
+.hero-section{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap-reverse;
+    
+   
+    
+}
+
+.hero-left-section{
+    width: 40%;
+}
+
+.second{
+   margin: 5px;
+}
+
+.hero-right-section :first-child{
+    margin: 5px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 900px;
+
+}
+p{
+    margin: 20px 0px;
+}
+
+button{
+    padding: 7px 10px;
+    border-radius: 7px;
+    background-color: green;
+    color: white;
+    font-weight: 700px;
+    font-size: 15px;
+    border: none;
+
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(28, 31, 28);
+    font-weight: 800px;
+    border: green solid 1px;
+}
+

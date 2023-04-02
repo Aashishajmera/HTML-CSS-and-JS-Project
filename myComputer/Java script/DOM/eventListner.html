@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM part 3 - 125 </title>
+</head>
+
+<body>
+    <!-- html -->
+    <h2>
+        HI Friend , I am Aashish
+    </h2>
+
+    <button class="btn" onclick="click_button()">submit</button>
+
+
+
+    <!-- internal js -->
+    <script>
+
+
+        document.addEventListener("click", click_function);
+        function click_function() {
+            document.querySelector("h2").innerText = "HI guy's , i am Aashish"
+        }
+
+
+        function click_button() {
+            let butn = document.querySelector("button")
+            butn.innerText = "succesfull"
+            // variable bna kr 
+            butn.style.color = "white"
+            butn.style.fontSize = "20px"
+            butn.style.border = "1px solid blue"
+            butn.style.borderRadius = "22px"
+            butn.style.backgroundColor = "black"
+        }
+
+
+    </script>
+</body>
+
+</html>

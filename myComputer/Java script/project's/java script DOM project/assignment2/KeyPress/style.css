@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+p{
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+input{
+    height: 33px;
+    font-size: 22px;
+}
