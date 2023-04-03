@@ -1,0 +1,149 @@
+* {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Rose', cursive;;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    color: #432c0a;
+
+}
+
+body {
+
+    background-color: #edf1fd;
+    /* margin: 15px 100px; */
+    height: 100vh;
+    width: 100vw;
+}
+
+/* header  */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-weight: 900px;
+    font-size: 30px;
+}
+
+.navigation a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+.navigation a:hover {
+    font-weight: 900px;
+    text-decoration: underline;
+    text-transform: capitalize;
+
+}
+
+button {
+    background-color: rgb(18, 155, 155);
+    padding: 4px 19px;
+    border: white solid 1px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    width: fit-content;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+
+.search{
+    display: flex;
+    gap: 20px;
+}
+
+input {
+   padding: 3px 10px;
+   border-radius: 5px;
+   width: 200px;
+}
+
+
+/* main seaction */
+
+
+.hero-section{
+    display: flex;
+    margin: 80px 0px;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    gap: 180px;
+}
+
+.hero-left-section{
+    /* width: 60%;
+    padding: 0 8%; */
+}
+
+.hero-left-section h1{
+    font-size: 30px;
+    font-weight: 700px;
+    padding-bottom: 18px;
+}
+
+.hero-left-section h1 span{
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    background-color: #dfdfe0;
+    padding: 0 15px;
+}
+
+.hero-left-section p span{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(18, 155, 155);
+}
+
+img{
+    height: 190px;
+    width: 200px;
+    border-radius: 200px;
+}
+.hero-right-section img{
+    margin-bottom:  13px;
+}
+.hero-right-section-button{
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+/* foooter */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    gap: 30px;
+}
+
+footer div{
+    display: flex;
+    gap: 40px;
+}
+
+footer div:hover{
+    font-weight: 900px;
+
+}
+
